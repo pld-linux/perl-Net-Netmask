@@ -30,7 +30,7 @@ operuj±cymi na obiekcie Net::Netmask.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
