@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	Netmask
+%define		pdir	Net
+%define		pnam	Netmask
 Summary:	Net::Netmask - parse, manipulate and lookup IP network blocks
 Summary(pl):	Net::Netmask - analiza, obróbka i wyszukiwanie bloków sieci IP
 Name:		perl-Net-Netmask
