@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Netmask
-Summary:	Net-Netmask perl module
-Summary(pl):	Modu³ perla Net-Netmask
+Summary:	Net::Netmask perl module
+Summary(pl):	Modu³ perla Net::Netmask
 Name:		perl-Net-Netmask
 Version:	1.9002
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-Netmask perl module.
+Net::Netmask perl module.
 
 %description -l pl
-Modu³ perla Net-Netmask.
+Modu³ perla Net::Netmask.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
