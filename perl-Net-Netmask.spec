@@ -3,7 +3,7 @@ Summary:	Net-Netmask perl module
 Summary(pl):	Modu³ perla Net-Netmask
 Name:		perl-Net-Netmask
 Version:	1.8
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
