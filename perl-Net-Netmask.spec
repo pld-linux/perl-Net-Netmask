@@ -5,7 +5,7 @@ Summary:	Net::Netmask - parse, manipulate and lookup IP network blocks
 Summary(pl):	Net::Netmask - analiza, obróbka i wyszukiwanie bloków sieci IP
 Name:		perl-Net-Netmask
 Version:	1.9002
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
