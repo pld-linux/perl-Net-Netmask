@@ -3,7 +3,7 @@ Summary:	Net-Netmask perl module
 Summary(pl):	Modu³ perla Net-Netmask
 Name:		perl-Net-Netmask
 Version:	1.9002
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -32,13 +32,13 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README CHANGELOG
+gzip -9nf README CHANGELOG t/*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc *.gz t/*.gz
 %{perl_sitelib}/Net/Netmask.pm
 %{_mandir}/man3/*
