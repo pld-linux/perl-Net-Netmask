@@ -2,7 +2,7 @@
 Summary:	Net-Netmask perl module
 Summary(pl):	Modu³ perla Net-Netmask
 Name:		perl-Net-Netmask
-Version:	1.9
+Version:	1.9001
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
