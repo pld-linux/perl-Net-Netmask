@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Netmask
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-Netmask perl module
 Summary(pl):	Modu³ perla Net-Netmask
 Name:		perl-Net-Netmask
 Version:	1.9002
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Net-Netmask perl module.
 Modu³ perla Net-Netmask.
 
 %prep
-%setup -q -n Net-Netmask-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
