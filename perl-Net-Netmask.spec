@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Netmask
 Summary:	Net::Netmask - parse, manipulate and lookup IP network blocks
-Summary(pl):	Net::Netmask - analiza, obróbka i wyszukiwanie bloków sieci IP
+Summary(pl.UTF-8):   Net::Netmask - analiza, obrÃ³bka i wyszukiwanie blokÃ³w sieci IP
 Name:		perl-Net-Netmask
 Version:	1.9014
 Release:	1
@@ -24,10 +24,10 @@ Net::Netmask parses and understands IPv4 CIDR blocks. It's built with
 an object-oriented interface. Nearly all functions are methods that
 operate on a Net::Netmask object.
 
-%description -l pl
-Modu³ Net::Netmask analizuje i rozumie bloki CIDR IPv4. Ma obiektowo
-zorientowany interfejs. Prawie wszystkie funkcje s± metodami
-operuj±cymi na obiekcie Net::Netmask.
+%description -l pl.UTF-8
+ModuÅ‚ Net::Netmask analizuje i rozumie bloki CIDR IPv4. Ma obiektowo
+zorientowany interfejs. Prawie wszystkie funkcje sÄ… metodami
+operujÄ…cymi na obiekcie Net::Netmask.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
