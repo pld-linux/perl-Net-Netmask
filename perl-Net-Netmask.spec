@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	Netmask
 Summary:	Net::Netmask - parse, manipulate and lookup IP network blocks
-Summary(pl.UTF-8):   Net::Netmask - analiza, obróbka i wyszukiwanie bloków sieci IP
+Summary(pl.UTF-8):	Net::Netmask - analiza, obróbka i wyszukiwanie bloków sieci IP
 Name:		perl-Net-Netmask
 Version:	1.9014
 Release:	1
