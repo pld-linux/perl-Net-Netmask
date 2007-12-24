@@ -10,10 +10,12 @@ Summary(pl.UTF-8):	Net::Netmask - analiza, obróbka i wyszukiwanie bloków sieci
 Name:		perl-Net-Netmask
 Version:	1.9015
 Release:	1
-License:	GPL
+# "License hereby granted for anyone to use, modify or redistribute this module at their own risk."
+License:	Free
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	90298105cd17a5c2a4059297e09f1546
+URL:		http://search.cpan.org/dist/Net-Netmask/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
